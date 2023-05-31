@@ -110,7 +110,6 @@ main {
 footer span{
    padding-right: 10px;
 }
-footer i{
-   color: rgb(26, 26, 26) ;
-   background-color: white;
+footer .container div{
+   font-weight: bold;
 }
