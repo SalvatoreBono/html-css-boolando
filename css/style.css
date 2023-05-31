@@ -48,10 +48,11 @@ main {
 }
 
 .box-img{
-   width: 33.3%;
+   width: 100%;
 }
 .top-box{
    position: relative;
+   width: 33.3%;
 }
 .img-text{
    color: white;
@@ -77,6 +78,7 @@ main {
 .favorite{
    position: absolute;
    top: 0;
+   right: 0;
    background-color: white;
    margin-top: 10px;
 }
@@ -86,4 +88,7 @@ main {
 }
 .old-price{
    text-decoration: line-through;
+}
+.wrap-image{
+   flex-wrap: wrap;
 }
