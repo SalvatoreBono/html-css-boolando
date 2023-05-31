@@ -15,9 +15,11 @@ nav {
    padding-top: 15px;
    font-size: 13px;
 }
-
+.space-beetween{
+   justify-content: space-between;
+}
 .container {
-   max-width: 980px;
+   max-width: 960px;
    margin: 0 auto;
 }
 
@@ -112,4 +114,7 @@ footer span{
 }
 footer .container div{
    font-weight: bold;
+}
+.hover:hover{
+background-image: url(../img/1b.webp);
 }
